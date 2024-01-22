@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T02:30:38.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="tRz-G34lCUBer8_t9q7I" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T02:33:57.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="ft-TYAtpDHasOuarB7IG" version="22.1.21" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="929" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,6 +42,9 @@
         </mxCell>
         <mxCell id="hHyRbieHzVPzRxpKnxZc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.005;entryY=0.369;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="hHyRbieHzVPzRxpKnxZc-8" target="hHyRbieHzVPzRxpKnxZc-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHyRbieHzVPzRxpKnxZc-12" value="是否在VIEW中存在高亮标识时走的不是PREVIEW，流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="78" width="330" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
