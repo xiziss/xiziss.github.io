@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T06:59:07.182Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="FdeuafwvuX_79RbjnkYD" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T09:06:36.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="FonaHbFgpBu5YRaC2VJ5" version="23.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1948" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1756" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="BOARD_ITEM" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="120" y="270" width="150" height="138" as="geometry">
+          <mxGeometry x="120" y="250" width="150" height="150" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="- m_subLayer： wxString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="- m_subLayer： int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="26" width="150" height="44" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="70" width="150" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--5" value="+ 对应的Get/Set" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="78" width="150" height="26" as="geometry" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--5" value="+ 对应的Get/Set&#xa;+ subLayerToPcbLayer&#xa;+ subLayerToGroupId" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="78" width="150" height="62" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--12" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -25,16 +25,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Umm4Ift8Dbhane4J-wZ2-10" value="Class&amp;nbsp;DEFINE_LAYER_MGR" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-500" y="446" width="520" height="148" as="geometry" />
+          <mxGeometry x="-490" y="446" width="510" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="Umm4Ift8Dbhane4J-wZ2-11" value="- m_qcDefineLayers:std::unordered_map&amp;lt;wxString, PCB_LAYER_ID&amp;gt; // 快查子层所在的PCB层&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;- m_defineLayers:std::map&amp;lt;PCB_LAYER_ID, std::set&amp;lt;wxString&amp;gt;&amp;gt;&amp;nbsp;&lt;br&gt;- m_groupBindLayers: std::unordered_map&amp;lt;GROUP_ID,&amp;nbsp; std::set&amp;lt;wxString&amp;gt; &amp;gt;// group 与&amp;nbsp; 子层&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Umm4Ift8Dbhane4J-wZ2-10" vertex="1">
-          <mxGeometry y="26" width="520" height="84" as="geometry" />
+        <mxCell id="Umm4Ift8Dbhane4J-wZ2-11" value="- m_groupBindLayers: std::unordered_map&amp;lt;GROUP_ID,&amp;nbsp; std::list&amp;lt;int&amp;gt; &amp;gt;// group 与&amp;nbsp; 子层&amp;nbsp;&lt;br&gt;- m_subLayerName : boost::bimap&amp;lt;sublayer, wxString&amp;gt; 子层名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Umm4Ift8Dbhane4J-wZ2-10" vertex="1">
+          <mxGeometry y="26" width="510" height="44" as="geometry" />
         </mxCell>
         <mxCell id="Umm4Ift8Dbhane4J-wZ2-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Umm4Ift8Dbhane4J-wZ2-10" vertex="1">
-          <mxGeometry y="110" width="520" height="8" as="geometry" />
+          <mxGeometry y="70" width="510" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Umm4Ift8Dbhane4J-wZ2-13" value="+ DynamicPartLayer: 动态分层&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Umm4Ift8Dbhane4J-wZ2-10" vertex="1">
-          <mxGeometry y="118" width="520" height="30" as="geometry" />
+        <mxCell id="Umm4Ift8Dbhane4J-wZ2-13" value="+ DynamicPartLayer: 动态分层,返回的是SUBLAYER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Umm4Ift8Dbhane4J-wZ2-10" vertex="1">
+          <mxGeometry y="78" width="510" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2UXTbW5cIJRXcBsVPD1t-0" value="Class BOARD" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="120" y="446" width="260" height="104" as="geometry" />
