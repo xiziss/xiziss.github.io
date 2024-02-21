@@ -1,9 +1,167 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T00:49:52.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="23.1.5" etag="B5ZxKgAVi4UNJ3065Scs" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T01:22:51.344Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="4VrCdTv4lV7nSoV0VkW8" version="23.1.5" type="github">
   <diagram name="第 1 页" id="ugru1Qc_61ssY65tqVHY">
-    <mxGraphModel>
+    <mxGraphModel dx="1355" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-2" target="aPe7H_bkwJZn-IohtuyS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-3" target="aPe7H_bkwJZn-IohtuyS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-3" value="设置自定义层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-4" target="aPe7H_bkwJZn-IohtuyS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-4" target="aPe7H_bkwJZn-IohtuyS-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-4" target="aPe7H_bkwJZn-IohtuyS-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-4" value="刷新活动层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-5" target="aPe7H_bkwJZn-IohtuyS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-5" value="切换活动层到自定义层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-6" target="aPe7H_bkwJZn-IohtuyS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-6" value="设置ToolLayer=Sublayer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-7" value="设置Activelayer = SublayerToPcbLayer&lt;br&gt;/ PCB层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-8" target="aPe7H_bkwJZn-IohtuyS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-8" value="开始画布刷新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-9" target="aPe7H_bkwJZn-IohtuyS-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-9" value="获取SublayerToPcbLayer&lt;br&gt;这层上的所有项目" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-7" target="aPe7H_bkwJZn-IohtuyS-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="770" as="sourcePoint" />
+            <mxPoint x="520" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-18" target="aPe7H_bkwJZn-IohtuyS-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-18" value="判断项目是否在Sublayer 上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-19" value="更新项目状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-20" target="aPe7H_bkwJZn-IohtuyS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-20" value="画布绘制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.412;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-19" target="aPe7H_bkwJZn-IohtuyS-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="870" />
+              <mxPoint x="570" y="565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-22" target="aPe7H_bkwJZn-IohtuyS-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-22" value="Drawing 绘制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-24" target="aPe7H_bkwJZn-IohtuyS-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-24" value="ViewGetLayer&lt;br&gt;Sublayer &amp;gt; 0 &amp;amp;&amp;amp; Sublayer != m_layer&lt;br&gt;设置绘制层为SublayerToPcbLayer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="740" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-26" value="获取颜色&lt;div&gt;DrawLayer 为User层&lt;/div&gt;&lt;div&gt;设置drawLayer = Sublayer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-27" target="aPe7H_bkwJZn-IohtuyS-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="469.8571428571429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-27" value="设置ToolLayer = PCB层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-28" target="aPe7H_bkwJZn-IohtuyS-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-28" value="切换为PCB层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-35" target="aPe7H_bkwJZn-IohtuyS-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-35" value="切换活动层到LayerThroughAll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-37" target="aPe7H_bkwJZn-IohtuyS-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-37" value="设置ToolLayer = Through" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-39" value="设置ActiveLayer 为上一次设置的层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-44" value="ViewGetLayer&lt;br&gt;判断IsThrougnAll = true&lt;br&gt;返回LayerThroughAll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-49" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aPe7H_bkwJZn-IohtuyS-39" target="aPe7H_bkwJZn-IohtuyS-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="810" as="sourcePoint" />
+            <mxPoint x="360" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="520" />
+              <mxPoint x="440" y="520" />
+              <mxPoint x="670" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-51" value="PS:Shape拥有LAYER_THROUGH_ALL 是在铜皮绘制时" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="aPe7H_bkwJZn-IohtuyS-44">
+          <mxGeometry x="0.1034" width="160" relative="1" as="geometry">
+            <mxPoint x="730" y="570" as="sourcePoint" />
+            <mxPoint x="890" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="570" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-54" value="获取颜色判断IsThroughAll = true&lt;br&gt;设置LayerThroughALL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPe7H_bkwJZn-IohtuyS-56" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.2" width="160" relative="1" as="geometry">
+            <mxPoint x="839.66" y="810" as="sourcePoint" />
+            <mxPoint x="839.6999999999999" y="860" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
